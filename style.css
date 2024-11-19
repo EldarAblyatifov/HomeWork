@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+html {
+  background-color: #ADD8E6;
+  font-family: "Inter", sans-serif;
+}
+
+.main-header {
+  font-size: 24px;
+  color: #FFFFFF;
+  
+  width: 100%;
+  padding: 7.5px 8px;
+
+  background-color: #3D3D3D;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+
+  margin: 8px;
+}
+
+.text {
+  font-size: 16px;
+
+  margin: 16px 8px;
+}
+
+.facts {
+  font-size: 19px;
+
+  margin: 8px;
+}
+
+.facts-content {
+  background-color: #00FFFF;
+
+  border-radius: 8px;
+
+  margin: 16px 8px;
+  padding: 8px;
+}
+
+.article-header {
+  margin-bottom: 8px;
+}
