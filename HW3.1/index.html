@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="form-container">
+
+    <div class="form-name">
+      <fieldset class="name-fieldset">
+        <legend>Имя</legend>
+        <input class="input-text" type="text" placeholder="Фамилия">
+        <input class="input-text" type="text" placeholder="Имя">
+      </fieldset>
+    </div>
+
+    <div class="form-radio-check">
+
+
+      <fieldset class="gender-fieldset">
+        <legend>Пол</legend>
+        <div>
+          <input type="radio" name="gender" id="male">
+          <label for="male">Мужской</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="female">
+          <label for="female">Женский</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="unknown">
+          <label for="unknown">Не хочу говорить</label>
+        </div>
+      </fieldset>
+
+
+
+      <fieldset class="newsletter-fieldset">
+        <legend>Получать рассылку по</legend>
+        <div>
+          <input type="checkbox" name="newsletter" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div>
+          <input type="checkbox" name="newsletter" id="sms">
+          <label for="sms">SMS</label>
+        </div>
+      </fieldset>
+
+    </div>
+   
+      <button class="submit-button" type="submit">Оптравить</button>
+    
+
+  </div>
+
+</body>
+
+</html>
