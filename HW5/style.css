@@ -1,0 +1,23 @@
+* {
+  margin: 5px;
+  padding: px;
+}
+
+html {
+  background-color: rgb(226, 153, 165);
+}
+
+.container {
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid {
+  width: auto;
+  height: 300px;
+  background-color: aqua;
+  border-radius: 5px;
+}
