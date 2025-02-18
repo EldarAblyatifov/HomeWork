@@ -1,0 +1,15 @@
+#clickCounter {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+}
+
+#congratulations {
+  margin-top: 10px;
+  font-size: 18px;
+  color: green;
+  display: none;
+}
