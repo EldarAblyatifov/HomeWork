@@ -4,11 +4,11 @@ const items = [
   { name: "ASUS 47,5 Zoll OLED 4K Gaming Monitor", price: 2070 }
 ];
 
-function proverka50(items) {
+function hasExpensiveItem(items) {
   return items.some(item => item.price > 50);
 }
 
-const result = proverka50(items);
+const result = hasExpensiveItem(items);
 console.log(result); 
 
 
@@ -23,10 +23,10 @@ const items2 = [
   { name: "Большая банка Нутеллы", price: 6 }
 ];
 
-function proverka502(items2) {
+function hasExpensiveItem2(items2) {
   return items2.some(item => item.price > 50);
 }
 
 
-const result2 = proverka502(items2);
+const result2 = hasExpensiveItem2(items2);
 console.log(result2); 
